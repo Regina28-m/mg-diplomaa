@@ -121,8 +121,8 @@
       width: 92%;
    }
    .popup-content {
-      width: 391px;
-      height: 598px;
+      width: 380px;
+      height: 578px;
    }
    .title-popup {
       font-size: 1.8rem;
@@ -164,7 +164,6 @@
    .header-container {
       flex-direction: column-reverse;
       width: 83%;
-      margin-top: 173px;
    }
    .header-logo {
       width: 26.8rem;
@@ -195,9 +194,14 @@
       padding: 33px 29px 29px 23px;
    }
    .content {
-      flex-wrap: wrap;
-      width: 92%;
-   }
+    display: block;
+    max-width: 360px;
+    padding: 0px 15px;
+    margin-top: 59px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+ }
    .main-posts {
       width: 100%;
       margin: 0;
@@ -228,7 +232,6 @@
    }
    .post-shop {
       width: 100%;
-      flex-direction: column;
    }
    .title-shop {
       font-size: 1.6rem;
@@ -273,4 +276,11 @@
    .radios {
       margin-bottom: 29px;
    }
+   .list-tags {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.list-tags-item {
+    margin-top: 10px;
+}
 }
